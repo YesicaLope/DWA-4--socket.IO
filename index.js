@@ -13,6 +13,8 @@ const server = http.createServer(app)
 import { Server } from "socket.io";
 const io = new Server(server)
 
+//PASO 4-> INSTANCIAR EN INDEX.JS
+app.use(express.static('public'));
 
 
 
